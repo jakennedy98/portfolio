@@ -6,19 +6,26 @@ body {
 
 a{
   cursor: pointer;
+  text-decoration: none;
+  color: #2c2c2c;
 }
 
 ul {
   list-style-type: none;
 }
+
+h2 {
+  font-size: 18px;
+}
+
+
+/* Navigation  */
+
+
 .navbar {
   height: 60px;
   display: flex;
   color: #2c2c2c;
-}
-
-h2 {
-  font-size: 18px;
 }
 
 .nav-list-right {
@@ -28,18 +35,9 @@ h2 {
   flex-direction: row;
   justify-content: flex-end;
   margin-top: 30px;
-  padding-right: 60px;
+  padding-right: 2vw;
 
 }
-
-.nav-list-right {
-  width: 80%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
 
 .nav-list-right > * {
   margin-right: 20px;
@@ -60,6 +58,10 @@ h2 {
   margin-left: 30px;
 }
 
+
+/* About Me  */
+
+
 .header {
   height: 200px;
   width: 100%;
@@ -73,14 +75,9 @@ h2 {
 }
 
 .header-component {
-  margin-top: 2px;
+  margin-top: 6px;
   margin-bottom: 0px;
   font-weight: 300;
-}
-
-.questions{
-  align-self: center;
-
 }
 
 .profile-image{
@@ -91,52 +88,79 @@ h2 {
   margin-top: 10px;
 }
 
-
-
-.education-container{
-  height: 50vh;
+.about-me-container{
+  height: 38vh;
   width: 100%;
   display: flex;
   justify-content: center;
 
 }
 
-.education-list{
+.about-me-list{
+  margin-top: 88px;
 
   display: block;
-  width: 400px;
+  width: 500px;
   align-self: center;
+}
 
+.questions{
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  
 
 }
+
+#contact-me-link{
+  font-weight: 600;
+  padding-left: 8px;
+}
+
+
+
+
+/* Skills */
 
 
 .skills{
-  height: 60vh;
+  height: 100vh;
   width: 100%;
   background-color: #F3F6F4;
-
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+#skills-header{
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+
+/* Projects */
+
 
 .projects{
-  height: 60vh;
+  height: 100vh;
   width: 100%;
+
 }
 
-.contact {
-  height: 105vh;
+/* Contact Me */
+
+#contact {
+  height: 100vh;
   width: 100%;
   background-color: rgb(174, 194, 226);
   background-color: #F3F6F4;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.contact-form {
-  margin-top: 40px;
+#contact-form {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -144,6 +168,7 @@ h2 {
   border-radius: 8px;
   height: 300px;
   width: 500px;
+  
 }
 
 .contact-form-title {

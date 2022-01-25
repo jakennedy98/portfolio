@@ -1,8 +1,8 @@
 
 import './App.css';
-import Intro from "./components/Intro";
+import Intro from "./components/Header";
 import Navbar from "./components/Navbar";
-import Education from "./components/Education";
+import Education from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";

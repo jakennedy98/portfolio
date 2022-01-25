@@ -3,7 +3,10 @@ import "./Styles.css"
 
 function Skills() {
     return (
-        <div className="skills">
+        <div id = "skills" className="skills">
+            <div id = "skills-header">Skills</div>
+            
+    
             <ul>
                 <li>HTML5</li>
                 <li>CSS</li>
@@ -19,6 +22,10 @@ function Skills() {
                 <li>Stata</li>
 
             </ul>
+
+ 
+
+        
 
         </div>
     
