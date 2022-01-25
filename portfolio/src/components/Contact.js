@@ -4,7 +4,7 @@ import "./Styles.css"
 function Contact() {
     return (
         <div className="contact">
-            <form className="contact-form">
+            <form className="contact-form" action="mailto:jakennedy98@gmail.com">
                 <div className="contact-form-title">Contact Me!</div>
                 <label>Email Address</label>
                 <input></input>

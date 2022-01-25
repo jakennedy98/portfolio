@@ -6,9 +6,9 @@ function Intro() {
     return (
         <div>
             <div class="header" >
-                <img src = "/face.jpeg" alt="Logo" class="profile-image" />
+                <img src = "/me.jpeg" alt="Logo" class="profile-image" />
                 <h1 class="header-component">Jacob Kennedy</h1>
-                <h2 class="header-component">Web Developer</h2>
+                <h2 class="header-component">Full-Stack Developer</h2>
             </div>
         </div>
     )
