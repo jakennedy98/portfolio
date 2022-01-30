@@ -10,15 +10,15 @@ function Footer() {
       }
 
     return (
-        <div className="footer">
-             <ul className="nav-list-right">
-                 <li className = "nav-link" onClick={() => scroll('#about-me')}>About</li>
+
+             <ul className="footer-links">
+                <li className = "nav-link" onClick={() => scroll('#nav')}>About</li>
                 <li className = "nav-link" onClick={() => scroll('#skills')}>Skills</li>
                 <li className = "nav-link" onClick={() => scroll('#projects')}>Projects</li>
                 <li className = "nav-link" onClick={() => scroll('#contact')}>Contact</li>
             </ul>
             
-        </div>
+
     )
 }
 

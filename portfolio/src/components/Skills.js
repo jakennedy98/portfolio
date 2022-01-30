@@ -49,9 +49,16 @@ function Skills() {
                 </li>
 
                 <li className="skills-wrapper">
+                    <div>SQL</div>
+                    <img src = "/sql-server.png" alt="Javascript" className="skill-logo" width="50px"  />
+                </li>
+
+                <li className="skills-wrapper">
                     <div>R</div>
                     <img src = "/R-icon.png" alt="Javascript" className="skill-logo" width="48px"  />
                 </li>
+
+               
 
             </ul>
 
