@@ -7,17 +7,46 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import {useRef} from "react";
 
 function App() {
+
+ 
+  const contact = useRef();
+  const aboutMe = useRef();
+  const skills = useRef();
+  const projects = useRef();
+
+  const focusInput = () => {
+    contact.current.focus();
+  };
+
+
+  let props = {
+    contact: contact,
+    aboutMe: aboutMe,
+    skills: skills,
+    project: projects,
+    test: "test!",
+
+  };
+
+ 
+
+
+
+
+
+
   return (
     <div>
-      <Navbar/>
+      <Navbar props={props}/>
       <Intro />
       <Education/>
       <Skills/>
       <Projects/>
-      <Contact/>
-      <Footer/>
+      <Contact props={props}/>
+      <Footer />
     </div>
   );
 }

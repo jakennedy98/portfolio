@@ -1,9 +1,11 @@
 import React from 'react'
 import "./Styles.css"
 
-function Contact() {
+const Contact = (props) => {
+
+    const contact = props.contact;
     return (
-        <div id="contact">
+        <div id="contact" ref={contact}>
             <form id="contact-form" action="mailto:jakennedy98@gmail.com">
                 <div className="contact-form-title">Contact Me!</div>
                 <label>Email Address</label>

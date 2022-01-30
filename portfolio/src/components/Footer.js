@@ -2,13 +2,20 @@ import React from 'react'
 import "./Styles.css"
 
 function Footer() {
+
+    const scroll = (id) => {
+        document.querySelector(id)
+        .scrollIntoView({ behavior: 'smooth', block: 'center' });
+    
+      }
+
     return (
         <div className="footer">
              <ul className="nav-list-right">
-                <li><a href="#nav">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a  href="#contact" >Contact</a></li>
+                 <li className = "nav-link" onClick={() => scroll('#about-me')}>About</li>
+                <li className = "nav-link" onClick={() => scroll('#skills')}>Skills</li>
+                <li className = "nav-link" onClick={() => scroll('#projects')}>Projects</li>
+                <li className = "nav-link" onClick={() => scroll('#contact')}>Contact</li>
             </ul>
             
         </div>
