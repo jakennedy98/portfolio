@@ -5,8 +5,6 @@ function Skills() {
     return (
         <div id = "skills" className="skills">
             <div id = "skills-header">Skills</div>
-            
-    
             <ul className="skills-grid">
                 <li className="skills-wrapper">
                     <div className="skill-title">HTML5</div>             

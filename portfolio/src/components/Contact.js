@@ -5,16 +5,17 @@ const Contact = (props) => {
 
     const contact = props.contact;
     return (
-        <div id="contact" ref={contact}>
+        <section id="contact" ref={contact}>
             <form id="contact-form" action="mailto:jakennedy98@gmail.com">
                 <div className="contact-form-title">Contact Me!</div>
-                <label>Email Address</label>
+                <label>Your Email Address</label>
                 <input></input>
                 <label>Message</label>
                 <textarea></textarea>
-                <button>Submit</button>
+                <button className="button">Submit</button>
+                <form action="mailto:jakennedy98@gmail.com" className="email-me">or email: <button className="email-button">jakennedy98@gmail.com</button></form>
             </form>
-        </div>
+        </section>
     )
 }
 

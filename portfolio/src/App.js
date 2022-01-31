@@ -31,18 +31,11 @@ function App() {
 
   };
 
- 
-
-
-
-
-
-
   return (
     <div>
       <Navbar props={props}/>
-      <Intro />
       <Education/>
+
       <Skills/>
       <Projects/>
       <Contact props={props}/>
