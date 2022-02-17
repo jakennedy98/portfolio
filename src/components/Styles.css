@@ -272,6 +272,7 @@ h2 {
   background-color: var(--white);
   height: 250px;
   width: 350px;
+  cursor: pointer;
 
 }
 
@@ -327,6 +328,7 @@ textarea {
   margin: 10px 0px;
   font-family: 'Open Sans', sans-serif;
   padding-left: 10px;
+  padding-top: 10px;
 }
 
 input {
@@ -334,7 +336,7 @@ input {
   border: 1px solid lightgray;
   border-radius: 6px;
   margin:  10px 0px;
-  font-size: 20px;
+
   padding-left: 12px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -359,13 +361,17 @@ input {
   border: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
+  padding-bottom: 2px;
+
   cursor: pointer;
 }
 
 .email-me {
   align-self: center;
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 
 
