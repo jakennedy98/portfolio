@@ -26,21 +26,15 @@ function Education() {
 
     return (
         <div id="wrapper" className="wrapper" >
-             <LazyLoadImage
-     
-
+             <img
                     src={"/sky.jpg"}
-                    effect="blur"
                     alt="sky"
                     className="parallax"
                     style={{
                         transform: `translateY(${offset * 0.9}px)`, 
                     }}
-    
-                
             />
 
-            
             <section 
                 className = "header-container" 
                 style={{  }}
@@ -50,7 +44,7 @@ function Education() {
                    
                      
                     <div id = "header" className="header">
-                        <img src = "/face.jpeg" alt="Logo" className="profile-image" />
+                        <img src = "/face.png" alt="Logo" className="profile-image" />
                         <h1 className="header-component">Jacob Kennedy</h1>
                         <h2 className="header-component">Full-Stack Developer</h2>
                     </div>

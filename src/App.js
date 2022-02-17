@@ -1,6 +1,5 @@
 
 import './App.css';
-import Intro from "./components/Header";
 import Navbar from "./components/Navbar";
 import Education from "./components/AboutMe";
 import Skills from "./components/Skills";
@@ -35,7 +34,6 @@ function App() {
     <div>
       <Navbar props={props}/>
       <Education/>
-
       <Skills/>
       <Projects/>
       <Contact props={props}/>

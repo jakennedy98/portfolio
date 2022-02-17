@@ -10,9 +10,7 @@ function Projects() {
                 <div className="project">
                     <img src="blog.png" height="100%" width="100%"></img>
                 </div>
-
             </div>
-       
         </section>
     )
 }
