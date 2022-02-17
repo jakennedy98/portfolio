@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import "./Styles.css";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 function Education() {
 
@@ -40,11 +40,9 @@ function Education() {
                 style={{  }}
             >
                 
-                <div >
+                <div>
                    
-                     
                     <div id = "header" className="header">
-                      
                         <h1 className="header-component">Jacob Kennedy</h1>
                         <h2 className="header-component">Full-Stack Developer</h2>
                     </div>
