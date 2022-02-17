@@ -57,6 +57,22 @@ h2 {
 
 .nav-link {
   cursor: pointer;
+ 
+}
+
+.hamburger-menu {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: show;
+
+}
+
+@media only screen and (min-width: 760px) {
+  .hamburger-menu {
+    display: none;
+  }
+
 }
 
 /* About Me  */
@@ -233,12 +249,32 @@ h2 {
 /* Projects */
 
 
-.projects{
+.project-section{
   height: 100vh;
   width: 100%;
   background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
+
+
+.project-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 25px;
+  grid-gap: 40px;
+}
+
+.project{
+  background-color: var(--white);
+  height: 250px;
+  width: 350px;
+
+}
+
 
 /* Contact Me */
 

@@ -8,31 +8,11 @@ const Navbar = ({props}) => {
     .scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
 
-  const options = {
-    root: document.querySelector("#skills"),
-    rootMargin: '0px',
-    threshold: 0
-  };
-
-  const observer = new IntersectionObserver(
-    entries => { 
-      entries.forEach(entry => {
-
-        console.log('intersection');
-      });
-    }, 
-    options);
-
-    const navLinks = document.querySelectorAll(".nav-link");
-
-    navLinks.forEach(navLink => {
-        observer.observe(navLink);
-    })
-
     return (
         
         <nav id="nav" className="navbar">
             <ul className="nav-links">
+              <button className="hamburger-menu"><img src="/hamburger-white.png" height = "30px;"></img></button>
                 <li className = "nav-link" onClick={() => scroll('#wrapper')}>About</li>
                 <li className = "nav-link" onClick={() => scroll('#skills')}>Skills</li>
                 <li className = "nav-link" onClick={() => scroll('#projects')}>Projects</li>
