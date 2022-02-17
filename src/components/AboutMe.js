@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import "./Styles.css"
+import "./Styles.css";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Education() {
 
@@ -25,14 +26,20 @@ function Education() {
 
     return (
         <div id="wrapper" className="wrapper" >
-             <img
-                src="sky.jpg"
-                alt="sky"
-                className="parallax"
-                style={{
-                    transform: `translateY(${offset * 0.9}px)`, 
-                }}
+             <LazyLoadImage
+     
+
+                    src={"/sky.jpg"}
+                    effect="blur"
+                    alt="sky"
+                    className="parallax"
+                    style={{
+                        transform: `translateY(${offset * 0.9}px)`, 
+                    }}
+    
+                
             />
+
             
             <section 
                 className = "header-container" 
