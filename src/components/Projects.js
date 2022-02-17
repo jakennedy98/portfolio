@@ -7,9 +7,9 @@ function Projects() {
                 <div className="project">
                     <img src="strawberry.png" height="100%"></img>
                 </div>
-                <div className="project">
+                <a className="project" href="https://lsat-blog-client.herokuapp.com">
                     <img src="blog.png" height="100%" width="100%"></img>
-                </div>
+                </a>
             </div>
         </section>
     )
