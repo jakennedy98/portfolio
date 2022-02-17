@@ -98,11 +98,12 @@ h2 {
 
 .header-container {
   background-size: cover;
-  height: 100vh;
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: var(--white);
 }
 
@@ -111,41 +112,23 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: #4A4E69;
-  font-weight: normal;
   font-family: 'Open Sans', sans-serif;
-  padding-top: 30px;
   color: var(--white);
-  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 28px;
+
 }
 
 .header-component {
-  margin-top: 10px;
   margin-bottom: 0px;
   font-weight: 300;
 }
 
-.profile-image{
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  margin-top: 10px;
-  margin-bottom: 6px;
-  border: 2px solid var(--white);
-}
 
-
-.about-me-container{
-  height: 54vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  color: var(--white);
-  background-size: cover;
-}
 
 .about-me-text{
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   width: 560px;
@@ -269,14 +252,18 @@ h2 {
   grid-gap: 40px;
 }
 
+@media only screen and (max-width: 760px) {
+  .project-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
 .project{
   background-color: var(--white);
   height: 250px;
   width: 350px;
   cursor: pointer;
-
 }
-
 
 /* Contact Me */
 
@@ -284,7 +271,6 @@ h2 {
   height: 100vh;
   width: 100%;
   background-color: var(--secondary-color);
- 
   display: flex;
   align-items: center;
   justify-content: center;
