@@ -13,7 +13,6 @@ const Contact = (props) => {
                 <label>Message</label>
                 <textarea placeholder="Write a message"></textarea>
                 <button className="button">Submit</button>
-                <form action="mailto:jakennedy98@gmail.com" className="email-me"><div>or email:</div> <button className="email-button">jakennedy98@gmail.com</button></form>
             </form>
         </section>
     )
