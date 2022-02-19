@@ -6,7 +6,7 @@ const Contact = (props) => {
     const contact = props.contact;
     return (
         <section id="contact" ref={contact}>
-            <form id="contact-form" action="mailto:jakennedy98@gmail.com">
+            <form id="contact-form">
                 <div className="contact-form-title">Contact Me!</div>
                 <label>Email Address</label>
                 <input placeholder="Enter your email"></input>
