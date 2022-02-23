@@ -27,12 +27,12 @@ function Education() {
     return (
         <div id="wrapper" className="wrapper" >
              <img
-                    src={"/sky.jpg"}
-                    alt="sky"
-                    className="parallax"
-                    style={{
-                        transform: `translateY(${offset * 0.9}px)`, 
-                    }}
+                src={"/sky.jpg"}
+                alt="sky"
+                className="parallax"
+                style={{
+                    transform: `translateY(${offset * 0.9}px)`, 
+                }}
             />
 
             <section 
