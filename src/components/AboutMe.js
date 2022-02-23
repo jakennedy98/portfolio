@@ -54,7 +54,7 @@ function Education() {
                         </p>
 
                         <div className="questions">Got any questions?<a id="contact-me-link" onClick={() => scroll('#contact')}> Contact me.</a></div>
-                        <button className="resume-button"><a href={require("../Resume.PDF")} download="Resume_Jacob_Kennedy">Download Resume</a></button>
+                        <button className="resume-button"><a href={require("../Resume.pdf")} download="Resume_Jacob_Kennedy">Download Resume</a></button>
                     
                     </div>
                 </div>
