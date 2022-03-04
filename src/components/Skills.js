@@ -23,17 +23,17 @@ function Skills() {
 
                 <li className="skills-wrapper">
                     <div>React</div>
-                    <img src = "/react-icon.png" alt="Javascript" className="skill-logo" width="60px"  />
+                    <img src = "/react-icon.png" alt="React" className="skill-logo" width="60px"  />
                 </li>
 
                 <li className="skills-wrapper">
                     <div>Git / Github</div>
-                    <img src = "/github.png" alt="Javascript" className="skill-logo" width="56px"  />
+                    <img src = "/github.png" alt="Github" className="skill-logo" width="56px"  />
                 </li>
                 
                 <li className="skills-wrapper">
                     <div>RESTful APIs</div>
-                    <img src = "/api.png" alt="Javascript" className="skill-logo" width="48px"  />
+                    <img src = "/api.png" alt="RESTful APIs" className="skill-logo" width="48px"  />
                 </li>
 
                 <li className="skills-wrapper">

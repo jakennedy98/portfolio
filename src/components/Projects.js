@@ -10,7 +10,7 @@ const Projects = () => {
         switch (project) {
             case 'blog':  
                 return (
-                    <div onClick = {() => toggleProject()} className = "project-info__container" className = {showProject ? "project-info__container" : "hidden"} >
+                    <div onClick = {() => toggleProject()} className = "project-info__container" className =  {showProject ? "project-info__container" : "hidden"} >
                    
                         <div className = "project-info" className = {showProject ? "project-info" : "hidden"} >
                             <div className = "project-info__wrapper">
@@ -44,7 +44,6 @@ const Projects = () => {
                         </div>
                     </div>
                     )
-                break;
             case 'homework':  
                 return (
                     <div onClick = {() => toggleProject()} className = "project-info__container" className = {showProject ? "project-info__container" : "hidden"} >
@@ -75,7 +74,7 @@ const Projects = () => {
                                 <div>
                                     <div className = "project-info__links">
                                         <a>View Live</a>
-                                        <a>View Code</a>
+                                        <a a href = "https://github.com/jakennedy98/homework-interface" target="_blank" rel="noopener noreferrer">View Code</a>
                                     </div>
                                     </div>
                             </div>
@@ -83,7 +82,6 @@ const Projects = () => {
                         </div>
                     </div>
                 )
-                break;
                 case 'new york':  
                 return (
                     <div onClick = {() => toggleProject()} className = "project-info__container" className = {showProject ? "project-info__container" : "hidden"} >
@@ -97,10 +95,16 @@ const Projects = () => {
                                         <img className = "project-info__image" src={"NY.jpg"} width = "100%"></img>
                                     </div>
                                     <div>
-                                    <p>This project is a fully functional blog about the LSAT, complete with an about me page and a contact page. Users can search for blog posts by keywords. </p>
+                                    <p>For this class project, I worked with Matt Hartmann, Tianshu Wang, and Dongeun Lee to predict New York City real estate prices. 
+                                        We first cleaned and joined the data from two datasets, and then made inference models and prediction models. Our k-nearest 
+                                        neighbor model had the best predictive performance, coming within 10% of the sales price for 94.4% of the test data. 
+                                    </p>
+                                    <p>Please see the report below.</p>
                                     <p>Skills used:
                                     <ul>
                                             <li className = "project-info__skill">R<img src = "/R-icon.png" alt="Javascript" className="skill-logo" width="30px"  /></li>
+                                            <li className = "project-info__skill">Python <img src = "/python-icon.png" alt="React" className="skill-logo" width="30px"  /></li>        
+
                                   
                                         </ul>
                                     </p>
@@ -109,7 +113,7 @@ const Projects = () => {
                                 <div>
                                     <div className = "project-info__links">
      
-                                        <a>View Report</a>
+                                    <a href = "https://www.keepandshare.com/doc27/112800/nyc-real-estate-analysis-docx-pdf-4-1-meg?dn=y&dnad=y" target="_blank" rel="noopener noreferrer">View Report</a>
                                     </div>
                                     </div>
                             </div>
@@ -117,7 +121,6 @@ const Projects = () => {
                         </div>
                     </div>
                 )
-                break;
                 case 'table tennis':  
                 return (
                     <div onClick = {() => toggleProject()} className = "project-info__container" className = {showProject ? "project-info__container" : "hidden"} >
@@ -132,7 +135,7 @@ const Projects = () => {
                                     </div>
                                     <div>
                                     <p>For this project, I used JavaScript, Django, and two sofascore APIs to get data for 4.5 million table tennis points in PostgreSQL.
-                                        I then converted the data into a csv file and am preparing to analyzing the data. The problem that I am attempting to solve is based off of an observation
+                                        I then converted the data into a csv file and am analyzed the data. The problem that I am attempting to solve is based off of an observation
                                         that the live betting lines do not seem to account for the momentum of the players. For example, if two players are tied 7-7, but player 2 scored the prevoius
                                         4 points, I hypothesize that they will disproportionately win the set because they appear to score in clusters. I am currently researching models to find 
                                         some candidates appropriate for the problem.
@@ -159,7 +162,7 @@ const Projects = () => {
                         </div>
                     </div>
                 )
-                break;
+
         }
 
     }
