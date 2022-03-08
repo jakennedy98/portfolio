@@ -35,7 +35,7 @@ const Projects = () => {
                                 </div>
                                 <div>
                                     <div className = "project-info__links">
-                                        <a href = "https://lsat-blog-client.herokuapp.com/" target="_blank" rel="noopener noreferrer">View Live</a>
+                                        <a href = "http://www.lsatreport.com/" target="_blank" rel="noopener noreferrer">View Live</a>
                                         <a href = "https://github.com/jakennedy98/lsat-blog" target="_blank" rel="noopener noreferrer">View Code</a>
                                     </div>
                                     </div>
